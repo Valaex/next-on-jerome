@@ -7,12 +7,22 @@ import { motion } from "framer-motion";
 type Props = {};
 
 const Header = (props: Props) => {
+  const classNames = {
+    base: "cursor-pointer transition-all duration-500 relative inline-block capitalize",
+    before:
+      "before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-0 before:h-1 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-[#040320]",
+    hover: "hover:before:w-full hover:before:opacity-100",
+  };
+  const combinedClassNames = combineClassNames(classNames);
   const [isOpen, setOpen] = React.useState(false);
 
   const menu = (toggled: boolean) => {
     setOpen(toggled);
   };
 
+  function combineClassNames(classObj: object) {
+    return Object.values(classObj).join(" ");
+  }
   return (
     <header>
       <motion.div
@@ -26,7 +36,7 @@ const Header = (props: Props) => {
           duration: 0.8,
         }}
       >
-        <nav className="flex flex-row items-center justify-between h-20 ">
+        <nav className="flex flex-row items-center justify-between h-20 border-b border-[#040320] border-opacity-5">
           <div>
             <h2 className="font-bold text-lg overflow-auto whitespace-nowrap">
               {"{Jérôme Knops}"}
@@ -35,19 +45,29 @@ const Header = (props: Props) => {
           <div className="link-container">
             <ul className=" hidden lg:flex flex-row items-center gap-12 text-base font-medium  ">
               <li>
-                <a href="#about">À propos</a>
+                <a href="#about" className={combineClassNames(classNames)}>
+                  À propos
+                </a>
               </li>
               <li>
-                <a href="#experience">Expérience</a>
+                <a href="#experience" className={combineClassNames(classNames)}>
+                  Expérience
+                </a>
               </li>
               <li>
-                <a href="#portfolio">Portfolio</a>
+                <a href="#portfolio" className={combineClassNames(classNames)}>
+                  Portfolio
+                </a>
               </li>
               <li>
-                <a href="#services">Services</a>
+                <a href="#services" className={combineClassNames(classNames)}>
+                  Services
+                </a>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <a href="#contact" className={combineClassNames(classNames)}>
+                  Contact
+                </a>
               </li>
             </ul>
           </div>

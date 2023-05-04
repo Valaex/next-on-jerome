@@ -19,7 +19,18 @@ const combinedClassNames = combineClassNames(classNames);
 
 function Menu({}: Props) {
   return (
-    <section className="z-2 w-full fixed top-0 right-0 sm:w-60 md:w-80 h-auto text-center  text-white bg-[#040320] lg:hi">
+    <motion.div
+      initial={{ x: 200, opacity: 0 }}
+      animate={{
+        opacity: 1,
+        scale: 1,
+        x: 0,
+      }}
+      transition={{
+        duration: 0.4,
+      }}
+      className="z-2 w-full fixed top-0 right-0 sm:w-60 md:w-80 h-auto text-center text-white bg-[#040320] lg:hi"
+    >
       <div className="link-container text-2xl mt-20 leading-loose mb-10">
         <ul>
           <li className="">
@@ -66,7 +77,7 @@ function Menu({}: Props) {
           bgColor="transparent"
         />
       </div>
-    </section>
+    </motion.div>
   );
 }
 
