@@ -9,7 +9,9 @@ const ubuntu = Ubuntu({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className="{ubuntu.className}">
+    <main
+      className={`${ubuntu.className} max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-16`}
+    >
       <Component {...pageProps} />
     </main>
   );

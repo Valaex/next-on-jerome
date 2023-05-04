@@ -1,6 +1,7 @@
 import { Ubuntu } from "next/font/google";
 import Head from "next/head";
 import Header from "@/components/Header";
+import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Portfolio from "@/components/Portfolio";
@@ -22,6 +23,8 @@ export default function Home() {
       </Head>
 
       <Header />
+
+      <Hero />
 
       <About />
 
