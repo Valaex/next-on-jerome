@@ -1,11 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import heroImg from "@/public/heroimg.svg";
-import linkImg from "@/public/linkedin.png";
 import { Montserrat } from "next/font/google";
 import { Ubuntu } from "next/font/google";
 import { motion } from "framer-motion";
-import { SocialIcon } from "react-social-icons";
+import ContactButton from "./ContactButton";
 import HoverSocialIcon from "./Hover";
 
 const montserrat = Montserrat({
@@ -21,7 +20,7 @@ type Props = {};
 
 const Hero = (props: Props) => {
   return (
-    <div className="flex flex-wrap justify-center lg:flex-nowrap">
+    <div className="flex flex-wrap justify-center mb-14 lg:flex-nowrap max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-16">
       <motion.div
         initial={{ opacity: 0, scale: 0 }}
         animate={{
@@ -45,11 +44,7 @@ const Hero = (props: Props) => {
           </p>
           <div className="flex flex-row justify-center relative w-full gap-x-8 lg:justify-normal">
             <HoverSocialIcon url="https://www.linkedin.com/in/jeromeknops/" />
-            <button
-              className={`${montserrat.className} hover:bg-slate-200 hover:text-[#040320] hover:transition-all hover:duration-300 duration-300 hover:shadow-xl hover:shadow-[#040320] flex flex-row justify-center items-center p-4 gap-2 w-48 h-12 left-24  bg-[#040320]  rounded-full text-white font-bold text-xs sm:text-xs  tracking-widest`}
-            >
-              ME CONTACTER
-            </button>
+            <ContactButton></ContactButton>
           </div>
         </div>
       </motion.div>

@@ -24,7 +24,7 @@ const Header = (props: Props) => {
     return Object.values(classObj).join(" ");
   }
   return (
-    <header>
+    <header className="max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-16">
       <motion.div
         initial={{ y: -50, opacity: 0, scale: 0.5 }}
         animate={{

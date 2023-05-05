@@ -1,3 +1,4 @@
+import * as React from "react";
 import { Ubuntu } from "next/font/google";
 import Head from "next/head";
 import Header from "@/components/Header";
