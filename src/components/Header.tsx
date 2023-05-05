@@ -25,53 +25,138 @@ const Header = (props: Props) => {
   }
   return (
     <header className="max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-16">
-      <motion.div
-        initial={{ y: -50, opacity: 0, scale: 0.5 }}
-        animate={{
-          y: 0,
-          opacity: 1,
-          scale: 1,
-        }}
-        transition={{
-          duration: 0.8,
-        }}
-      >
+      <div>
         <nav className="flex flex-row items-center justify-between h-20 border-b border-[#040320] border-opacity-5">
           <div>
-            <h2 className="font-bold text-lg overflow-auto whitespace-nowrap">
+            <motion.h2
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{
+                opacity: 1,
+                scale: 1,
+              }}
+              transition={{
+                duration: 0.4,
+              }}
+              className="font-bold text-lg overflow-auto whitespace-nowrap"
+            >
               {"{Jérôme Knops}"}
-            </h2>
+            </motion.h2>
           </div>
           <div className="link-container">
-            <ul className=" hidden lg:flex flex-row items-center gap-12 text-base font-medium  ">
+            <ul className=" hidden md:flex flex-row items-center lg:gap-12 md:gap-8 text-base font-medium  ">
               <li>
-                <a href="#about" className={combineClassNames(classNames)}>
+                <motion.a
+                  initial={{
+                    opacity: 0,
+                    y: -200,
+                  }}
+                  animate={{
+                    opacity: 1,
+                    y: 0,
+                  }}
+                  transition={{
+                    duration: 0.4,
+                    delay: 0.3,
+                  }}
+                  href="#about"
+                  className={combineClassNames(classNames)}
+                >
                   À propos
-                </a>
+                </motion.a>
               </li>
               <li>
-                <a href="#experience" className={combineClassNames(classNames)}>
+                <motion.a
+                  initial={{
+                    opacity: 0,
+                    y: -200,
+                  }}
+                  animate={{
+                    opacity: 1,
+                    y: 0,
+                  }}
+                  transition={{
+                    duration: 0.4,
+                    delay: 0.4,
+                  }}
+                  href="#experience"
+                  className={combineClassNames(classNames)}
+                >
                   Expérience
-                </a>
+                </motion.a>
               </li>
               <li>
-                <a href="#portfolio" className={combineClassNames(classNames)}>
+                <motion.a
+                  initial={{
+                    opacity: 0,
+                    y: -200,
+                  }}
+                  animate={{
+                    opacity: 1,
+                    y: 0,
+                  }}
+                  transition={{
+                    duration: 0.4,
+                    delay: 0.5,
+                  }}
+                  href="#portfolio"
+                  className={combineClassNames(classNames)}
+                >
                   Portfolio
-                </a>
+                </motion.a>
               </li>
               <li>
-                <a href="#services" className={combineClassNames(classNames)}>
+                <motion.a
+                  initial={{
+                    opacity: 0,
+                    y: -200,
+                  }}
+                  animate={{
+                    opacity: 1,
+                    y: 0,
+                  }}
+                  transition={{
+                    duration: 0.4,
+                    delay: 0.6,
+                  }}
+                  href="#services"
+                  className={combineClassNames(classNames)}
+                >
                   Services
-                </a>
+                </motion.a>
               </li>
               <li>
-                <a href="#contact" className={combineClassNames(classNames)}>
+                <motion.a
+                  initial={{
+                    opacity: 0,
+                    y: -200,
+                  }}
+                  animate={{
+                    opacity: 1,
+                    y: 0,
+                  }}
+                  transition={{
+                    delay: 0.7,
+                    duration: 0.4,
+                  }}
+                  href="#contact"
+                  className={combineClassNames(classNames)}
+                >
                   Contact
-                </a>
+                </motion.a>
               </li>
             </ul>
           </div>
-          <div className="social-container hidden  lg:block">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{
+              opacity: 1,
+              scale: 1,
+            }}
+            transition={{
+              duration: 0.2,
+            }}
+            className="social-container hidden  lg:block"
+          >
             <SocialIcon
               url="https://www.linkedin.com/in/jeromeknops/"
               fgColor="#040320"
@@ -87,16 +172,26 @@ const Header = (props: Props) => {
               fgColor="#040320"
               bgColor="transparent"
             />
-          </div>
-          <div className="z-10  lg:hidden">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{
+              opacity: 1,
+              scale: 1,
+            }}
+            transition={{
+              duration: 0.4,
+            }}
+            className="z-10  md:hidden"
+          >
             <Hamburger
               color={isOpen ? "white" : "currentColor"}
               toggled={isOpen}
               toggle={setOpen}
             />
-          </div>
+          </motion.div>
         </nav>
-      </motion.div>
+      </div>
       {isOpen && <Menu />}
     </header>
   );

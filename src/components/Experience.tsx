@@ -18,7 +18,7 @@ function Experience({}: Props) {
         <Image className="mt-1 mr-2" src={icon} alt="icon valide" />
         <div>
           <h3 className="uppercase text-base font-bold">{title}</h3>
-          <h4 className=" capitalize text-xs font-normal">{experience}</h4>
+          <h4 className="capitalize text-xs font-normal">{experience}</h4>
         </div>
       </div>
     );
@@ -41,7 +41,7 @@ function Experience({}: Props) {
   ];
 
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-16 pt-10 ">
+    <section className="max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-16 pt-10 mb-32">
       <div>
         <div className="text-center mb-16">
           <h3 className="font-normal text-base tracking-tighter">
@@ -50,7 +50,7 @@ function Experience({}: Props) {
           <h2 className="font-bold text-3xl">Mon expérience</h2>
         </div>
         <div className="exp-container flex flex-wrap justify-around text-white">
-          <div className="exp-container-left mb-6 md:mr-4 lg:mb-0 max-w-md bg-[#040320] py-6 px-10 rounded-3xl ">
+          <div className="exp-container-left mb-6 md:mr-4 lg:mb-0  bg-[#040320] py-6 px-10 rounded-3xl h-full">
             <h3 className="text-bold text-xl leading-6 text-white mb-4 text-center">
               Front-End développement
             </h3>
@@ -65,11 +65,11 @@ function Experience({}: Props) {
               ))}
             </div>
           </div>
-          <div className="exp-container-right max-w-md bg-[#040320] py-6 px-10 rounded-3xl">
-            <h3 className="text-bold text-xl leading-6 text-white mb-4 text-center ">
+          <div className="exp-container-right mb-6 md:mr-4 lg:mb-0  bg-[#040320] py-6 px-10 rounded-3xl h-full">
+            <h3 className="text-bold text-xl leading-6 text-white mb-4 text-center">
               Outils de design & développement
             </h3>
-            <div className="grid grid-cols-2 gap-x-24 gap-y-4 pb-4">
+            <div className="grid grid-cols-2 gap-x-24 gap-y-4 pb-4 ">
               {techDataR.map((tech) => (
                 <ExpTech
                   key={tech.title}
