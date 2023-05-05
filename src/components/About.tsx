@@ -8,7 +8,7 @@ type Props = {};
 
 function About({}: Props) {
   return (
-    <section className="h-[692px] bg-[#F5F5F5] shadow-inner">
+    <section className="h-auto bg-[#F5F5F5] shadow-inner">
       <div className="container max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-16 pt-10">
         <div className="text-center mb-16">
           <h3 className="font-normal text-base tracking-tighter">
@@ -17,7 +17,7 @@ function About({}: Props) {
           <h2 className="font-bold text-3xl">À propos de moi</h2>
         </div>
         <div className="flex flex-wrap justify-center lg:justify-between md:flex-nowrap ">
-          <div className="flex relative mb-20 md:mr-20 ">
+          <div className="flex relative mb-12 md:mr-20 ">
             <Image
               className=" "
               style={{ objectFit: "contain" }}
@@ -30,7 +30,7 @@ function About({}: Props) {
           </div>
 
           <div>
-            <div className="about-right flex flex-wrap justify-center md:justify-normal lg:pt-14 md:max-w-xl">
+            <div className="about-right flex flex-wrap justify-center md:justify-normal lg:pt-14 md:max-w-xl mb-8">
               <div className="flex flex-col justify-center items-center w-44 h-40 bg-[#040320] rounded-lg mb-5">
                 <Image className="mb-1" src={fileImg} alt="icone fichier" />
                 <h3 className="text-white text-base tracking-tighter">
