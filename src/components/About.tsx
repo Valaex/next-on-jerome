@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import aboutImg from "@/public/aboutimg.svg";
 import fileImg from "@/public/file.svg";
-import ContactButton from "./ContactButton";
+import ContactButton from "./Button/ContactButton";
 
 type Props = {};
 

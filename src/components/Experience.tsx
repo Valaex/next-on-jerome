@@ -66,7 +66,7 @@ function Experience({}: Props) {
             </div>
           </div>
           <div className="exp-container-left mb-6 md:mr-4 lg:mb-0  bg-[#040320] py-6 px-6 md:px-10 rounded-3xl  h-full">
-            <h3 className="text-bold text-lg md:text-xl leading-6 text-white mb-4 text-center text-ellipsis">
+            <h3 className="text-bold text-lg md:text-xl leading-6 text-white mb-3 text-center ">
               Outils de design & développement
             </h3>
             <div className="grid grid-cols-2  gap-x-20 md:gap-x-24 gap-y-4 pb-4">

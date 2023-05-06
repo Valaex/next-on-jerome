@@ -4,7 +4,7 @@ import heroImg from "@/public/heroimg.svg";
 import { Montserrat } from "next/font/google";
 import { Ubuntu } from "next/font/google";
 import { motion } from "framer-motion";
-import ContactButton from "./ContactButton";
+import ContactButton from "./Button/ContactButton";
 import HoverSocialIcon from "./Hover";
 
 const montserrat = Montserrat({
