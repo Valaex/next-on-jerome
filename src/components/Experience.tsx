@@ -41,7 +41,10 @@ function Experience({}: Props) {
   ];
 
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-16 pt-10 mb-20">
+    <section
+      id="experience"
+      className="max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-16 pt-10 mb-20"
+    >
       <div>
         <div className="text-center mb-16">
           <h3 className="font-normal text-base tracking-tighter">

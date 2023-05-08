@@ -5,10 +5,10 @@ import portfolioImg from "@/public/portfoliojeromeblanc.jpg";
 
 type Props = {};
 
-const PortfolioHR2 = (props: Props) => {
+const PortfolioHR = (props: Props) => {
   return (
-    <div className="container-HR hidden md:flex justify-end relative w-full mt-5">
-      <div className="portfolio-left md:w-1/2 text-left z-10 absolute left-0 inline-block pointer-events-none">
+    <div className="container-HR hidden md:flex h-[400px] justify-between relative w-full mt-5">
+      <div className="portfolio-left  text-left z-10 absolute left-0 inline-block pointer-events-none">
         <div className="">
           <h3 className="text-xl text-[#040320] font-medium drop-shadow-sm shadow-[#040320] ">
             Portfolio
@@ -60,7 +60,7 @@ const PortfolioHR2 = (props: Props) => {
           </div>
         </div>
       </div>
-      <div className="portfolio-right relative md:w-2/3   pointer-events-auto ">
+      <div className="portfolio-right absolute right-0 md:w-2/3   pointer-events-auto ">
         <a href="https://www.jeromeknops.com/">
           <Image
             src={portfolioImg}
@@ -75,4 +75,4 @@ const PortfolioHR2 = (props: Props) => {
   );
 };
 
-export default PortfolioHR2;
+export default PortfolioHR;

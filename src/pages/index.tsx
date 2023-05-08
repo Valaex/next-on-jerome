@@ -35,8 +35,6 @@ export default function Home() {
 
       <Services />
 
-      <Offre />
-
       <Contact />
 
       <Footer />
