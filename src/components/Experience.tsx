@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import imgValid from "../public/valid.svg";
 import { ComponentProps } from "react";
+import Reveal from "./MotionReveal/Reveal";
 
 type Props = {};
 
@@ -47,42 +48,58 @@ function Experience({}: Props) {
     >
       <div>
         <div className="text-center mb-16">
-          <h3 className="font-normal text-base tracking-tighter">
-            Mes compétences
-          </h3>
-          <h2 className="font-bold text-3xl">Mon expérience</h2>
+          <Reveal>
+            <h3 className="font-normal text-base tracking-tighter">
+              Mes compétences
+            </h3>
+          </Reveal>
+          <Reveal>
+            <h2 className="font-bold text-3xl">Mon expérience</h2>
+          </Reveal>
         </div>
         <div className="exp-container flex flex-wrap justify-around text-white">
-          <div className="exp-container-left mb-6 md:mr-4 lg:mb-0  bg-[#040320] py-6 px-6 md:px-10 rounded-3xl h-full">
-            <h3 className="text-bold text-xl leading-6 text-white mb-4 text-center">
-              Front-End développement
-            </h3>
-            <div className="grid grid-cols-2 gap-x-20 md:gap-x-24 gap-y-4 pb-4 pr-1 md:pr-2 ">
-              {techDataL.map((tech) => (
-                <ExpTech
-                  key={tech.title}
-                  icon={tech.icon}
-                  title={tech.title}
-                  experience={tech.experience}
-                />
-              ))}
+          <Reveal>
+            <div className="exp-container-left mb-6 md:mr-4 lg:mb-0  bg-[#040320] py-6 px-6 md:px-10 rounded-3xl h-full">
+              <Reveal>
+                <h3 className="text-bold text-xl leading-6 text-white mb-4 text-center">
+                  Front-End développement
+                </h3>
+              </Reveal>
+              <Reveal>
+                <div className="grid grid-cols-2 gap-x-20 md:gap-x-24 gap-y-4 pb-4 pr-1 md:pr-2 ">
+                  {techDataL.map((tech) => (
+                    <ExpTech
+                      key={tech.title}
+                      icon={tech.icon}
+                      title={tech.title}
+                      experience={tech.experience}
+                    />
+                  ))}
+                </div>
+              </Reveal>
             </div>
-          </div>
-          <div className="exp-container-left mb-6 md:mr-4 lg:mb-0  bg-[#040320] py-6 px-6 md:px-10 rounded-3xl  h-full">
-            <h3 className="text-bold text-lg md:text-xl leading-6 text-white mb-3 text-center ">
-              Outils de design & développement
-            </h3>
-            <div className="grid grid-cols-2  gap-x-20 md:gap-x-24 gap-y-4 pb-4">
-              {techDataR.map((tech) => (
-                <ExpTech
-                  key={tech.title}
-                  icon={tech.icon}
-                  title={tech.title}
-                  experience={tech.experience}
-                />
-              ))}
+          </Reveal>
+          <Reveal>
+            <div className="exp-container-left mb-6 md:mr-4 lg:mb-0  bg-[#040320] py-6 px-6 md:px-10 rounded-3xl  h-full">
+              <Reveal>
+                <h3 className="text-bold text-lg md:text-xl leading-6 text-white mb-3 text-center ">
+                  Outils de design & développement
+                </h3>
+              </Reveal>
+              <Reveal>
+                <div className="grid grid-cols-2  gap-x-20 md:gap-x-24 gap-y-4 pb-4">
+                  {techDataR.map((tech) => (
+                    <ExpTech
+                      key={tech.title}
+                      icon={tech.icon}
+                      title={tech.title}
+                      experience={tech.experience}
+                    />
+                  ))}
+                </div>
+              </Reveal>
             </div>
-          </div>
+          </Reveal>
         </div>
       </div>
     </section>

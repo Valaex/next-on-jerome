@@ -24,7 +24,10 @@ const Header = (props: Props) => {
     return Object.values(classObj).join(" ");
   }
   return (
-    <header className="max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-16">
+    <header
+      id="accueil"
+      className="max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-16"
+    >
       <div>
         <nav className="flex flex-row items-center justify-between h-20 border-b border-[#040320] border-opacity-5">
           <div>
