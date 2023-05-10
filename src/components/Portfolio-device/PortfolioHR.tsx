@@ -37,21 +37,26 @@ const PortfolioHR = (props: Props) => {
             </Reveal>
           </a>
           <Reveal>
-            <p className=" text-[15px] font-light mb-6  text-white bg-[#040320] max-w-[550px] p-8 text-right rounded-3xl ">
-              Grâce à l&apos;élaboration d&apos;un site web{" "}
-              <span className="text-bold text-[#00D1FF]">innovant</span> pour
-              son barbershop, combinant{" "}
-              <span className="text-bold text-[#00D1FF]">design attrayant</span>{" "}
-              et fonctionnalités efficaces, le client a été{" "}
-              <span className="text-bold text-[#00D1FF]">soutenu</span> tout au
-              long du processus, bénéficiant d&apos;un accompagnement{" "}
-              <span className="text-bold text-[#00D1FF]">sur mesure</span> et
-              d&apos;une solution d&apos;hébergement adaptée, renforçant ainsi
-              sa présence en ligne, attirant une clientèle plus large et{" "}
+            <p className="text-[15px] font-light mb-6 text-white bg-[#040320] max-w-[550px] p-8 text-left rounded-3xl">
+              En concevant un portfolio{" "}
+              <span className="text-bold text-[#00D1FF]">innovant</span> à
+              l&apos;aide de React, Next.js et TypeScript, j&apos;ai mis en
+              avant mon
               <span className="text-bold text-[#00D1FF]">
-                augmentant significativement ses revenus
+                {" "}
+                expertise technique
               </span>
-              .
+              , créant ainsi un site{" "}
+              <span className="text-bold text-[#00D1FF]">
+                attrayant
+              </span> et{" "}
+              <span className="text-bold text-[#00D1FF]">fonctionnel</span> qui
+              témoigne de mon{" "}
+              <span className="text-bold text-[#00D1FF]">savoir-faire</span> en
+              matière de développement web moderne et de ma capacité à réaliser
+              des projets{" "}
+              <span className="text-bold text-[#00D1FF]">épurés</span> et{" "}
+              <span className="text-bold text-[#00D1FF]">esthétiques.</span>
             </p>
           </Reveal>
 

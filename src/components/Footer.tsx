@@ -7,7 +7,6 @@ import ScrollToTop from "react-scroll-to-top";
 type Props = {};
 
 const Footer = (props: Props) => {
-  <ScrollToTop smooth top={20} />;
   const classNames = {
     base: "cursor-pointer transition-all duration-500 relative inline-block capitalize",
     before:
@@ -20,12 +19,6 @@ const Footer = (props: Props) => {
   }
   return (
     <Reveal>
-      <ScrollToTop
-        smooth
-        top={20}
-        color="#040320"
-        className="flex items-center justify-center "
-      />
       <section className="bg-[#040320]">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-16">
           <Reveal>

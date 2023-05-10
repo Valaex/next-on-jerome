@@ -4,12 +4,19 @@ import aboutImg from "@/public/aboutimg.svg";
 import fileImg from "@/public/file.svg";
 import ContactButton from "./Button/ContactButton";
 import Reveal from "./MotionReveal/Reveal";
+import ScrollToTop from "react-scroll-to-top";
 
 type Props = {};
 
 function About({}: Props) {
   return (
     <Reveal>
+      <ScrollToTop
+        smooth
+        top={20}
+        color="#040320"
+        className="flex items-center justify-center "
+      />
       <section id="about" className="h-auto bg-[#F5F5F5] shadow-inner">
         <div className="container max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-16 pt-10">
           <div className="text-center mb-16">

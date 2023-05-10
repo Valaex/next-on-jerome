@@ -30,10 +30,11 @@ const PortfolioMobile2 = (props: Props) => {
         </Reveal>
       </a>
       <Reveal>
-        <p className="text-base font-light mb-6  text-white">
+        <p className="text-base font-light mb-6 text-white">
           En concevant un portfolio{" "}
-          <span className="text-bold text-[#00D1FF]">innovant</span> à l'aide de
-          React, Next.js et TypeScript, j'ai mis en avant mon
+          <span className="text-bold text-[#00D1FF]">innovant</span> à
+          l&apos;aide de React, Next.js et TypeScript, j&apos;ai mis en avant
+          mon
           <span className="text-bold text-[#00D1FF]"> expertise technique</span>
           , créant ainsi un site{" "}
           <span className="text-bold text-[#00D1FF]">attrayant</span> et{" "}
