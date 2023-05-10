@@ -52,8 +52,8 @@ const Portfolio = (props: Props) => {
                   <p className=" text-[15px] font-light mb-6  text-white bg-[#040320] max-w-[550px] p-8 text-left rounded-3xl ">
                     En concevant un portfolio{" "}
                     <span className="text-bold text-[#00D1FF]">innovant</span> à
-                    l'aide de React, Next.js et TypeScript, j'ai mis en avant
-                    mon
+                    l&apos;aide de React, Next.js et TypeScript, j&apos;ai mis
+                    en avant mon
                     <span className="text-bold text-[#00D1FF]">
                       {" "}
                       expertise technique
