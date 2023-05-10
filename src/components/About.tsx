@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import aboutImg from "@/public/aboutimg.svg";
+import aboutImg from "@/public/aboutimg.png";
 import fileImg from "@/public/file.svg";
 import ContactButton from "./Button/ContactButton";
 import Reveal from "./MotionReveal/Reveal";
