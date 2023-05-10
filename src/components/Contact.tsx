@@ -15,12 +15,21 @@ const Contact: React.FC<ContactProps> = () => {
   const [email, setEmail] = useState<string>("");
   const [message, setMessage] = useState<string>("");
   const [alertMessage, setAlertMessage] = useState<string>("");
+  const validateEmail = (email: string) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
 
     if (name === "" || email === "" || message === "") {
       setAlertMessage("Veuillez remplir tous les champs.");
+      return;
+    }
+
+    if (!validateEmail(email)) {
+      setAlertMessage("Veuillez entrer un email valide.");
       return;
     }
 
