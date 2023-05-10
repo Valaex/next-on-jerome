@@ -2,7 +2,6 @@ import React from "react";
 import PortfolioMobile from "./Portfolio-device/PortfolioMobile";
 import PortfolioMobile2 from "./Portfolio-device/PortfolioMobile2";
 import PortfolioHR from "./Portfolio-device/PortfolioHR";
-import PortfolioHR2 from "./Portfolio-device/PortfolioHR2";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 import portfolioImg from "@/public/portfoliojeromeblanc.jpg";
 import Image from "next/image";

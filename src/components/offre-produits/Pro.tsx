@@ -1,6 +1,6 @@
 import React from "react";
 import IconValid from "./iconValid";
-import ContactButton from "../Button/ContactButton";
+
 import Reveal from "../MotionReveal/Reveal";
 
 type Props = {};

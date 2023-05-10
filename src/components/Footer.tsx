@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { SocialIcon } from "react-social-icons";
 import Reveal from "./MotionReveal/Reveal";
-import ScrollToTop from "react-scroll-to-top";
 
 type Props = {};
 
