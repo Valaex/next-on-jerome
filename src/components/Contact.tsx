@@ -35,14 +35,14 @@ const Contact: React.FC<ContactProps> = () => {
 
     emailjs
       .send(
-        "service_2k7kx6o", // Remplacez par l'ID de votre service EmailJS
-        "template_rc1kdrm", // Remplacez par l'ID de votre modèle EmailJS
+        "service_2k7kx6o",
+        "template_rc1kdrm",
         {
           name,
           email,
           message,
         },
-        "JVCPjxJh3kLD7ipBc" // Remplacez par votre ID utilisateur EmailJS
+        "JVCPjxJh3kLD7ipBc"
       )
       .then(
         (response) => {

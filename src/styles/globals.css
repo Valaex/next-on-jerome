@@ -20,6 +20,12 @@
   scroll-behavior: smooth;
 }
 
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
 body {
   background-color: white;
   color: #040320;

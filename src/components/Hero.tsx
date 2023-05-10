@@ -2,18 +2,12 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import heroImg from "@/public/heroimg.svg";
 import { Montserrat } from "next/font/google";
-import { Ubuntu } from "next/font/google";
 import { motion } from "framer-motion";
 import ContactButton from "./Button/ContactButton";
 import HoverSocialIcon from "./Hover";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
-});
-
-const ubuntu = Ubuntu({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
 });
 
 type Props = {};
@@ -62,7 +56,8 @@ const Hero = (props: Props) => {
               duration: 0.4,
               delay: 1.3,
             }}
-            className="font-normal text-center text-lg md:text-xl lg:text-2xl lg:text-left leading-8 text-custom-gray tracking-wide mb-6 lg:mb-8 md:whitespace-normal"
+            className="font-light
+             text-center text-lg md:text-xl lg:text-2xl lg:text-left leading-8 text-custom-gray tracking-wide mb-6 lg:mb-8 md:whitespace-normal"
           >
             Concrétisez vos idées et sublimez votre projet à un prix fixe, clair
             et abordable.
