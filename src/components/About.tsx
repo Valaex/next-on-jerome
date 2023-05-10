@@ -59,7 +59,7 @@ function About({}: Props) {
                 </Reveal>
                 <Reveal>
                   <p className=" leading-7 text-base text-left mb-8 lg:text-lg">
-                    Je m’appelle Jérôme , je développe des projets web, qu’ils
+                    Je m’appelle Jérôme, je développe des projets web, qu’ils
                     soient petits ou grands, pour les start-ups et les petites
                     entreprises, de celles qui cherchent à se doter d’un site
                     vitrine professionnel à celles qui cherchent à créer des

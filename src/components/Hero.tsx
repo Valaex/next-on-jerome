@@ -64,8 +64,8 @@ const Hero = (props: Props) => {
             }}
             className="font-normal text-center text-lg md:text-xl lg:text-2xl lg:text-left leading-8 text-custom-gray tracking-wide mb-6 lg:mb-8 md:whitespace-normal"
           >
-            Concrétisez vos idées et sublimez votre projet à un prix fixe ,
-            clair et abordable.
+            Concrétisez vos idées et sublimez votre projet à un prix fixe, clair
+            et abordable.
           </motion.p>
           <motion.div
             initial={{ y: 10, opacity: 0 }}

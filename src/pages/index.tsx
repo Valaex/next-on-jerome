@@ -7,7 +7,6 @@ import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Portfolio from "@/components/Portfolio";
 import Services from "@/components/Services";
-import Offre from "@/components/Offre";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
