@@ -15,6 +15,9 @@ const Header = (props: Props) => {
   };
   const combinedClassNames = combineClassNames(classNames);
   const [isOpen, setOpen] = React.useState(false);
+  const onMenuItemClick = () => {
+    setOpen(false);
+  };
 
   const menu = (toggled: boolean) => {
     setOpen(toggled);
@@ -195,7 +198,7 @@ const Header = (props: Props) => {
           </motion.div>
         </nav>
       </div>
-      {isOpen && <Menu />}
+      {isOpen && <Menu onMenuItemClick={onMenuItemClick} />}
     </header>
   );
 };

@@ -2,7 +2,9 @@ import * as React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 
-type Props = {};
+type Props = {
+  onMenuItemClick: () => void;
+};
 
 const classNames = {
   base: "cursor-pointer transition-all duration-500 relative inline-block capitalize",
@@ -17,8 +19,15 @@ function combineClassNames(classObj: object) {
 
 const combinedClassNames = combineClassNames(classNames);
 
-function Menu({}: Props) {
-  return (
+function Menu({ onMenuItemClick }: Props) {
+  const [menuVisible, setMenuVisible] = React.useState(true);
+
+  function handleMenuItemClick() {
+    setMenuVisible(false);
+    onMenuItemClick();
+  }
+
+  return menuVisible ? (
     <motion.div
       initial={{ x: 200, opacity: 0 }}
       animate={{
@@ -34,27 +43,47 @@ function Menu({}: Props) {
       <div className="link-container text-2xl mt-20 leading-loose mb-10">
         <ul>
           <li className="">
-            <a href="#about" className={combineClassNames(classNames)}>
+            <a
+              href="#about"
+              className={combineClassNames(classNames)}
+              onClick={handleMenuItemClick}
+            >
               À propos
             </a>
           </li>
           <li>
-            <a href="#experience" className={combineClassNames(classNames)}>
+            <a
+              href="#experience"
+              className={combineClassNames(classNames)}
+              onClick={handleMenuItemClick}
+            >
               Expérience
             </a>
           </li>
           <li>
-            <a href="#portfolio" className={combineClassNames(classNames)}>
+            <a
+              href="#portfolio"
+              className={combineClassNames(classNames)}
+              onClick={handleMenuItemClick}
+            >
               Portfolio
             </a>
           </li>
           <li>
-            <a href="#services" className={combineClassNames(classNames)}>
+            <a
+              href="#services"
+              className={combineClassNames(classNames)}
+              onClick={handleMenuItemClick}
+            >
               Services
             </a>
           </li>
           <li>
-            <a href="#contact" className={combineClassNames(classNames)}>
+            <a
+              href="#contact"
+              className={combineClassNames(classNames)}
+              onClick={handleMenuItemClick}
+            >
               Contact
             </a>
           </li>
@@ -78,7 +107,7 @@ function Menu({}: Props) {
         />
       </div>
     </motion.div>
-  );
+  ) : null;
 }
 
 export default Menu;
