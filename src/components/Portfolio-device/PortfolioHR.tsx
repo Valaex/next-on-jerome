@@ -38,16 +38,16 @@ const PortfolioHR = (props: Props) => {
           </a>
           <Reveal>
             <p className=" text-[15px] font-light mb-6  text-white bg-[#040320] max-w-[550px] p-8 text-right rounded-3xl ">
-              Grâce à l'élaboration d'un site web{" "}
+              Grâce à l&apos;élaboration d&apos;un site web{" "}
               <span className="text-bold text-[#00D1FF]">innovant</span> pour
               son barbershop, combinant{" "}
               <span className="text-bold text-[#00D1FF]">design attrayant</span>{" "}
               et fonctionnalités efficaces, le client a été{" "}
               <span className="text-bold text-[#00D1FF]">soutenu</span> tout au
-              long du processus, bénéficiant d'un accompagnement{" "}
+              long du processus, bénéficiant d&apos;un accompagnement{" "}
               <span className="text-bold text-[#00D1FF]">sur mesure</span> et
-              d'une solution d'hébergement adaptée, renforçant ainsi sa présence
-              en ligne, attirant une clientèle plus large et{" "}
+              d&apos;une solution d&apos;hébergement adaptée, renforçant ainsi
+              sa présence en ligne, attirant une clientèle plus large et{" "}
               <span className="text-bold text-[#00D1FF]">
                 augmentant significativement ses revenus
               </span>
