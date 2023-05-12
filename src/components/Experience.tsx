@@ -9,36 +9,34 @@ type Props = {};
 type ExpTechProps = {
   icon: ComponentProps<typeof Image>["src"];
   title: string;
-  experience: string;
 };
 
 function Experience({}: Props) {
-  function ExpTech({ icon, title, experience }: ExpTechProps) {
+  function ExpTech({ icon, title }: ExpTechProps) {
     return (
       <div className="exp-tech flex items-start">
         <Image className="mt-1 mr-2" src={icon} alt="icon valide" />
         <div>
           <h3 className="uppercase text-sm font-bold md:text-base">{title}</h3>
-          <h4 className="capitalize text-xs font-normal ">{experience}</h4>
         </div>
       </div>
     );
   }
   const techDataL = [
-    { icon: imgValid, title: "HTML", experience: "Expérimenté" },
-    { icon: imgValid, title: "JAVASCRIPT", experience: "Expérimenté" },
-    { icon: imgValid, title: "CSS", experience: "Expérimenté" },
-    { icon: imgValid, title: "REACT", experience: "Expérimenté" },
-    { icon: imgValid, title: "TAILWIND", experience: "Expérimenté" },
-    { icon: imgValid, title: "NEXT JS", experience: "Expérimenté" },
+    { icon: imgValid, title: "HTML" },
+    { icon: imgValid, title: "JAVASCRIPT" },
+    { icon: imgValid, title: "CSS" },
+    { icon: imgValid, title: "REACT" },
+    { icon: imgValid, title: "TAILWIND" },
+    { icon: imgValid, title: "NEXT JS" },
   ];
 
   const techDataR = [
-    { icon: imgValid, title: "FIGMA", experience: "Expérimenté" },
-    { icon: imgValid, title: "GIT", experience: "Expérimenté" },
-    { icon: imgValid, title: "PHOTOSHOP", experience: "Expérimenté" },
-    { icon: imgValid, title: "GITHUB", experience: "Expérimenté" },
-    { icon: imgValid, title: "SKETCH", experience: "Expérimenté" },
+    { icon: imgValid, title: "FIGMA" },
+    { icon: imgValid, title: "GIT" },
+    { icon: imgValid, title: "PHOTOSHOP" },
+    { icon: imgValid, title: "GITHUB" },
+    { icon: imgValid, title: "SKETCH" },
   ];
 
   return (
@@ -72,7 +70,6 @@ function Experience({}: Props) {
                       key={tech.title}
                       icon={tech.icon}
                       title={tech.title}
-                      experience={tech.experience}
                     />
                   ))}
                 </div>
@@ -93,7 +90,6 @@ function Experience({}: Props) {
                       key={tech.title}
                       icon={tech.icon}
                       title={tech.title}
-                      experience={tech.experience}
                     />
                   ))}
                 </div>

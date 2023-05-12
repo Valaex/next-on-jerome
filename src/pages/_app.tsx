@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 500);
   }, [setLoading]);
   return (
     <main className={`${poppins.className} `}>

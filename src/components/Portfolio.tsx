@@ -95,7 +95,7 @@ const Portfolio = (props: Props) => {
                     <span className="mr-4">Figma</span>
                   </Reveal>
                   <Reveal>
-                    <span className="mr-4">Hostinger</span>
+                    <span className="mr-4">Netlify</span>
                   </Reveal>
                 </div>
                 <div className="flex justify-start pointer-events-auto">
