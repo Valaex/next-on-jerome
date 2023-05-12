@@ -28,9 +28,9 @@ const StartUp = (props: Props) => {
       <Reveal>
         <p className="mb-[20px] font-normal text-base md:text-sm lg:text-base px-4">
           Idéal pour toute entreprise de type{" "}
-          <span className="font-bold">Start-Up</span> qui souhaite un site avec
-          des interfaces utilisateur hautement interactives et dynamiques adapté
-          à la <span className="font-bold">croissance</span> potentielle son
+          <span className="font-bold">Start-Up</span> qui souhaite un site doté
+          d'interfaces utilisateur hautement interactives et dynamiques, adapté
+          à la <span className="font-bold">croissance</span> potentielle de son
           projet.
         </p>
       </Reveal>
