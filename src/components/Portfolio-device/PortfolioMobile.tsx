@@ -22,7 +22,7 @@ const PortfolioMobile = (props: Props) => {
       <Reveal>
         <h3 className="text-base  text-[#00D1FF] ">Site Vitrine</h3>
       </Reveal>
-      <a href="https://www.jeromeknops.com/">
+      <a href="https://www.gcbarbershop.org/">
         <Reveal>
           <h2 className="text-lg font-bold mb-5 text-white hover:text-[#00D1FF]  transition-all ease-in">
             GC Barbershop
