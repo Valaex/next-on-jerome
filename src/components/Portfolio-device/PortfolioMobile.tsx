@@ -80,7 +80,7 @@ const PortfolioMobile = (props: Props) => {
           </Reveal>
         </a>
         <a
-          href="https://www.jeromeknops.com/"
+          href="https://www.gcbarbershop.org/"
           className="hover:text-[#00D1FF]  transition-all ease-in"
         >
           <Reveal>

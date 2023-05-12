@@ -10,7 +10,7 @@ const PortfolioHR = (props: Props) => {
   return (
     <div className="container-HR hidden md:flex  relative w-full mt-5">
       <div className="portfolio-left relative md:w-2/3 mt-2 pointer-events-auto ">
-        <a href="https://www.jeromeknops.com/">
+        <a href="https://www.gcbarbershop.org/">
           <Reveal>
             <Image
               src={barberImg}
@@ -88,7 +88,7 @@ const PortfolioHR = (props: Props) => {
               </Reveal>
             </a>
             <a
-              href="https://www.jeromeknops.com/"
+              href="https://www.gcbarbershop.org/"
               className=" text-[#040320] hover:text-[#00D1FF]  transition-all ease-in"
             >
               <Reveal>
