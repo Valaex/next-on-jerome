@@ -86,7 +86,7 @@ const StartUp = (props: Props) => {
           <li className="list-child flex  items-center justify-around bg-[#FFFFFF] bg-opacity-10 max-w-[268px] border-b-[1px] border-[#040320]">
             <IconValid />
             <p className="w-56 p-2 text-sm md:text-xs lg:text-sm">
-              Fonctionnalités nécessaire au projet
+              Fonctionnalités nécessaires au projet
             </p>
           </li>
         </Reveal>

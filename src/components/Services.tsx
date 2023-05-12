@@ -30,7 +30,7 @@ function Services({}: Props) {
             </Reveal>
             <Reveal>
               <p className="font-normal text-base  tracking-tighter">
-                Des forfaits clair pour des projets complets , un tarif
+                Des forfaits clairs pour des projets complets , un tarif
                 journalier pour du développement spécifique
               </p>
             </Reveal>

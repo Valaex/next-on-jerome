@@ -77,7 +77,7 @@ const Pro = (props: Props) => {
           <li className="list-child flex  items-center justify-around bg-[#FFFFFF] bg-opacity-10 max-w-[300px] border-b-[1px] border-[#040320]">
             <IconValid />
             <p className="w-64 p-2 text-base md:text-sm lg:text-base">
-              Adresse mail pro personnalisé
+              Adresse mail pro personnalisée
             </p>
           </li>
         </Reveal>

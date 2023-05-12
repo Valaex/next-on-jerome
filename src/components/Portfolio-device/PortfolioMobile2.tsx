@@ -68,7 +68,7 @@ const PortfolioMobile2 = (props: Props) => {
       </div>
       <div className="flex">
         <a
-          href="https://github.com/Valaex"
+          href="https://github.com/Valaex/next-on-jerome"
           className="mr-4 hover:text-[#00D1FF]  transition-all ease-in"
         >
           <Reveal>

@@ -73,7 +73,7 @@ const Simple = (props: Props) => {
           <li className="list-child flex  items-center justify-around bg-[#FFFFFF] bg-opacity-10 max-w-[268px] border-b-[1px] border-[#040320]">
             <IconValid />
             <p className="w-56 p-2 text-sm md:text-xs lg:text-sm">
-              Adresse mail pro personnalisé
+              Adresse mail pro personnalisée
             </p>
           </li>
         </Reveal>

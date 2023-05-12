@@ -23,12 +23,12 @@ function Experience({}: Props) {
     );
   }
   const techDataL = [
-    { icon: imgValid, title: "HTML" },
-    { icon: imgValid, title: "JAVASCRIPT" },
-    { icon: imgValid, title: "CSS" },
-    { icon: imgValid, title: "REACT" },
-    { icon: imgValid, title: "TAILWIND" },
+    { icon: imgValid, title: "React" },
+    { icon: imgValid, title: "TYPESCRIPT" },
     { icon: imgValid, title: "NEXT JS" },
+    { icon: imgValid, title: "HTML" },
+    { icon: imgValid, title: "TAILWIND" },
+    { icon: imgValid, title: "CSS" },
   ];
 
   const techDataR = [
@@ -37,6 +37,7 @@ function Experience({}: Props) {
     { icon: imgValid, title: "PHOTOSHOP" },
     { icon: imgValid, title: "GITHUB" },
     { icon: imgValid, title: "SKETCH" },
+    { icon: imgValid, title: "GPT-4" },
   ];
 
   return (
