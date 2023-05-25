@@ -15,6 +15,16 @@ export default function Home() {
       <Head>
         <title>Jérôme Knops - Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-G7PMDN2MX1"
+        ></script>
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag()
+          {dataLayer.push(arguments)}
+          gtag('js', new Date()); gtag('config', 'G-G7PMDN2MX1');
+        </script>
       </Head>
 
       <Header />
