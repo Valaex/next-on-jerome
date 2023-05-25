@@ -15,7 +15,6 @@ export default function Home() {
     <div>
       <Head>
         <title>Jérôme Knops - Portfolio</title>
-        <Link rel="icon" href="/src/public/favicon.ico" />
       </Head>
 
       <Header />
