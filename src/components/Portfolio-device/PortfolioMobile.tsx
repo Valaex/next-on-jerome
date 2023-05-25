@@ -1,6 +1,6 @@
 import React from "react";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
-import barberImg from "@/public/projetbarber.jpg";
+import barberImg from "../../../public/projetbarber.jpg";
 import Reveal from "../MotionReveal/Reveal";
 
 type Props = {};

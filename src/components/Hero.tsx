@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import heroImg from "@/public/heroimg.svg";
+import heroImg from "../../public/heroimg.svg";
 import { Montserrat } from "next/font/google";
 import { motion } from "framer-motion";
 import ContactButton from "./Button/ContactButton";

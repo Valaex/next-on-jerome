@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Valid from "@/public/valid.svg";
+import Valid from "../../../public/valid.svg";
 
 type Props = {};
 

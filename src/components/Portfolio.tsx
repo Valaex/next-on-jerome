@@ -3,7 +3,7 @@ import PortfolioMobile from "./Portfolio-device/PortfolioMobile";
 import PortfolioMobile2 from "./Portfolio-device/PortfolioMobile2";
 import PortfolioHR from "./Portfolio-device/PortfolioHR";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
-import portfolioImg from "@/public/portfoliojeromeblanc.jpg";
+import portfolioImg from "../../public/portfoliojeromeblanc.jpg";
 import Image from "next/image";
 import Reveal from "./MotionReveal/Reveal";
 

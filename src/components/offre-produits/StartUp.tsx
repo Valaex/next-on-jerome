@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import IconValid from "./iconValid";
-import IconReact from "@/public/React.svg";
+import IconReact from "../../../public/React.svg";
 import Reveal from "../MotionReveal/Reveal";
 
 type Props = {};

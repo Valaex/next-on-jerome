@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import imgValid from "../public/valid.svg";
+import imgValid from "../../public/valid.svg";
 import { ComponentProps } from "react";
 import Reveal from "./MotionReveal/Reveal";
 
