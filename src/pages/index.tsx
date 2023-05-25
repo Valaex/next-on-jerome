@@ -8,6 +8,7 @@ import Portfolio from "@/components/Portfolio";
 import Services from "@/components/Services";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -16,15 +17,18 @@ export default function Home() {
         <title>Jérôme Knops - Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
 
-        <script
-          async
+        <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-G7PMDN2MX1"
-        ></script>
-        <script>
-          window.dataLayer = window.dataLayer || []; function gtag()
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-G7PMDN2MX1');
-        </script>
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-G7PMDN2MX1');
+        `}
+        </Script>
       </Head>
 
       <Header />
