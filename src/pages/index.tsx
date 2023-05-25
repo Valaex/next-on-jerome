@@ -8,12 +8,14 @@ import Portfolio from "@/components/Portfolio";
 import Services from "@/components/Services";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
       <Head>
         <title>Jérôme Knops - Portfolio</title>
+        <Link rel="icon" href="/src/public/favicon.ico" />
       </Head>
 
       <Header />
