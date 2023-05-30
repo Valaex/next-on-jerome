@@ -2613,10 +2613,10 @@ const Jn = (e) =>
   line-height: 36px;
 `;
 var de = ((e) => (
-    (e[(e.Days = 0)] = "Days"),
-    (e[(e.Hours = 1)] = "Hours"),
+    (e[(e.Days = 0)] = "Jours"),
+    (e[(e.Hours = 1)] = "Heures"),
     (e[(e.Minutes = 2)] = "Minutes"),
-    (e[(e.Seconds = 3)] = "Seconds"),
+    (e[(e.Seconds = 3)] = "Secondes"),
     e
   ))(de || {}),
   Te = ((e) => ((e.Full = "full"), (e.Short = "short"), e))(Te || {}),
@@ -2641,13 +2641,13 @@ const Qn = (e, r) => {
       }
     switch (e) {
       case 0:
-        return "Days";
+        return "Jours";
       case 1:
-        return "Hours";
+        return "Heures";
       case 2:
         return "Minutes";
       case 3:
-        return "Seconds";
+        return "Secondes";
     }
   },
   xe = (e) =>
