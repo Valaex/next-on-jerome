@@ -15,7 +15,7 @@ function About({}: Props) {
         smooth
         top={20}
         color="#040320"
-        className="flex items-center justify-center "
+        className="flex items-center justify-center"
       />
       <section id="about" className="h-auto bg-[#F5F5F5] shadow-inner">
         <div className="container max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-16 pt-10">
