@@ -5,6 +5,8 @@ import { Montserrat } from "next/font/google";
 import { motion } from "framer-motion";
 import ContactButton from "./Button/ContactButton";
 import HoverSocialIcon from "./Hover";
+import RdvButton from "./Button/RDVButton";
+import DevisButton from "./Button/DevisButton";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -75,8 +77,8 @@ const Hero = (props: Props) => {
             }}
             className="flex flex-row justify-center relative w-full gap-x-8 lg:justify-normal"
           >
-            <HoverSocialIcon url="https://www.linkedin.com/in/jeromeknops/" />
             <ContactButton></ContactButton>
+            <RdvButton></RdvButton>
           </motion.div>
         </div>
       </div>
