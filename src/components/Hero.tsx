@@ -4,9 +4,7 @@ import heroImg from "../../public/heroimg.svg";
 import { Montserrat } from "next/font/google";
 import { motion } from "framer-motion";
 import ContactButton from "./Button/ContactButton";
-import HoverSocialIcon from "./Hover";
-import RdvButton from "./Button/RDVButton";
-import DevisButton from "./Button/DevisButton";
+import RdvButton from "./Button/RdvButton";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
