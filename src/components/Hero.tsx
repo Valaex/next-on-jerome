@@ -14,9 +14,9 @@ type Props = {};
 
 const Hero = (props: Props) => {
   return (
-    <div className="flex flex-wrap justify-center  h-screen md:h-[800px] lg:flex-nowrap max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-16">
+    <div className="flex flex-wrap justify-center  h-[90vh] md:h-[800px] lg:flex-nowrap max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-16">
       <div>
-        <div className="hero-left w-full mt-48 lg:mt-60 lg:w-auto">
+        <div className="hero-left w-full mt-40 md:mt-48 lg:mt-60 lg:w-auto">
           <motion.h2
             initial={{ y: 10, opacity: 0 }}
             animate={{
