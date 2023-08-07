@@ -80,14 +80,6 @@ const PortfolioHR = (props: Props) => {
           </div>
           <div className="flex justify-end pointer-events-auto">
             <a
-              href="https://github.com/Valaex/GC-BARBERSHOP"
-              className="mr-4 text-[#040320] hover:text-[#00D1FF]  transition-all ease-in "
-            >
-              <Reveal>
-                <FiGithub size={28} />
-              </Reveal>
-            </a>
-            <a
               href="https://www.gcbarbershop.org/"
               className=" text-[#040320] hover:text-[#00D1FF]  transition-all ease-in"
             >

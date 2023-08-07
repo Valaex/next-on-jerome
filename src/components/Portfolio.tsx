@@ -3,7 +3,7 @@ import PortfolioMobile from "./Portfolio-device/PortfolioMobile";
 import PortfolioMobile2 from "./Portfolio-device/PortfolioMobile2";
 import PortfolioHR from "./Portfolio-device/PortfolioHR";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
-import portfolioImg from "../../public/portfoliojeromeblanc.jpg";
+import MedisoluceImg from "../../public/sitemedisoluce.png";
 import Image from "next/image";
 import Reveal from "./MotionReveal/Reveal";
 
@@ -37,44 +37,34 @@ const Portfolio = (props: Props) => {
               <div className="">
                 <Reveal>
                   <h3 className="text-xl text-[#040320] font-medium drop-shadow-sm shadow-[#040320] ">
-                    Portfolio
+                    Site Start-Up
                   </h3>
                 </Reveal>
-                <a href="https://www.jeromeknops.com/" className="inline-block">
+                <a href="https://www.medisoluce.fr/" className="inline-block">
                   <Reveal>
                     <h2 className=" drop-shadow-sm shadow-slate-700 text-2xl font-bold mb-5 text-[#040320] hover:text-[#00D1FF]  transition-all ease-in text-left pointer-events-auto">
-                      Jérôme Knops
+                      MédiSoluce
                     </h2>
                   </Reveal>
                 </a>
                 <Reveal>
                   <p className=" text-[15px] font-light mb-6  text-white bg-[#040320] max-w-[550px] p-8 text-left rounded-3xl ">
-                    En concevant un portfolio{" "}
-                    <span className="text-bold text-[#00D1FF]">innovant</span> à
-                    l&apos;aide de React, Next.js et TypeScript, j&apos;ai mis
-                    en avant mon
-                    <span className="text-bold text-[#00D1FF]">
-                      {" "}
-                      expertise technique
-                    </span>
-                    , créant ainsi un site{" "}
-                    <span className="text-bold text-[#00D1FF]">
-                      attrayant
-                    </span>{" "}
+                    Pour Médisoluce, j'ai conçu un site{" "}
+                    <span className="text-bold text-[#00D1FF]">moderne</span>{" "}
+                    avec React et Next.js, offrant à mon client une présence en
+                    ligne{" "}
+                    <span className="text-bold text-[#00D1FF]">efficace</span>.
+                    Grâce à un design{" "}
+                    <span className="text-bold text-[#00D1FF]">épuré</span> et{" "}
+                    <span className="text-bold text-[#00D1FF]">esthétique</span>
+                    , le service est présenté de manière{" "}
+                    <span className="text-bold text-[#00D1FF]">attrayante</span>{" "}
                     et{" "}
                     <span className="text-bold text-[#00D1FF]">
-                      fonctionnel
-                    </span>{" "}
-                    qui témoigne de mon{" "}
-                    <span className="text-bold text-[#00D1FF]">
-                      savoir-faire
-                    </span>{" "}
-                    en matière de développement web moderne et de ma capacité à
-                    réaliser des projets{" "}
-                    <span className="text-bold text-[#00D1FF]">épurés</span> et{" "}
-                    <span className="text-bold text-[#00D1FF]">
-                      esthétiques.
+                      professionnelle
                     </span>
+                    , renforçant la crédibilité et l'attrait de Médisoluce
+                    auprès de ses utilisateurs.
                   </p>
                 </Reveal>
 
@@ -100,15 +90,7 @@ const Portfolio = (props: Props) => {
                 </div>
                 <div className="flex justify-start pointer-events-auto">
                   <a
-                    href="https://github.com/Valaex/next-on-jerome"
-                    className="mr-4 text-[#040320] hover:text-[#00D1FF]  transition-all ease-in "
-                  >
-                    <Reveal>
-                      <FiGithub size={28} />
-                    </Reveal>
-                  </a>
-                  <a
-                    href="https://www.jeromeknops.com/"
+                    href="https://www.medisoluce.fr/"
                     className=" text-[#040320] hover:text-[#00D1FF]  transition-all ease-in"
                   >
                     <Reveal>
@@ -119,11 +101,11 @@ const Portfolio = (props: Props) => {
               </div>
             </div>
             <div className="portfolio-right absolute right-0 md:w-2/3   pointer-events-auto ">
-              <a href="https://www.jeromeknops.com/">
+              <a href="https://www.medisoluce.fr/">
                 <Reveal>
                   <Image
-                    src={portfolioImg}
-                    alt="Portfolio Jérôme Knops"
+                    src={MedisoluceImg}
+                    alt="Site Médisoluce"
                     width={700}
                     height={380}
                     className="absolute right-0 flexcursor-pointer opacity-40 hover:opacity-100 transition-all ease-in rounded-3xl shadow-lg shadow-[#040320]"
