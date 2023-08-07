@@ -49,7 +49,7 @@ const Portfolio = (props: Props) => {
                 </a>
                 <Reveal>
                   <p className=" text-[15px] font-light mb-6  text-white bg-[#040320] max-w-[550px] p-8 text-left rounded-3xl ">
-                    Pour Médisoluce, j'ai conçu un site{" "}
+                    Pour Médisoluce, j&apos;ai conçu un site{" "}
                     <span className="text-bold text-[#00D1FF]">moderne</span>{" "}
                     avec React et Next.js, offrant à mon client une présence en
                     ligne{" "}
@@ -63,7 +63,7 @@ const Portfolio = (props: Props) => {
                     <span className="text-bold text-[#00D1FF]">
                       professionnelle
                     </span>
-                    , renforçant la crédibilité et l'attrait de Médisoluce
+                    , renforçant la crédibilité et l&apos;attrait de Médisoluce
                     auprès de ses utilisateurs.
                   </p>
                 </Reveal>

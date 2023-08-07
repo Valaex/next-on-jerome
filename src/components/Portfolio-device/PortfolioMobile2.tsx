@@ -31,7 +31,7 @@ const PortfolioMobile2 = (props: Props) => {
       </a>
       <Reveal>
         <p className="text-base font-light mb-6 text-white">
-          Pour Médisoluce, j'ai conçu un site{" "}
+          Pour Médisoluce, j&apos;ai conçu un site{" "}
           <span className="text-bold text-[#00D1FF]">moderne</span> avec React
           et Next.js, offrant à mon client une présence en ligne{" "}
           <span className="text-bold text-[#00D1FF]">efficace</span>. Grâce à un
@@ -40,8 +40,8 @@ const PortfolioMobile2 = (props: Props) => {
           service est présenté de manière{" "}
           <span className="text-bold text-[#00D1FF]">attrayante</span> et{" "}
           <span className="text-bold text-[#00D1FF]">professionnelle</span>,
-          renforçant la crédibilité et l'attrait de Médisoluce auprès de ses
-          utilisateurs.
+          renforçant la crédibilité et l&apos;attrait de Médisoluce auprès de
+          ses utilisateurs.
         </p>
       </Reveal>
       <div className="mb-5 flex flex-wrap">
