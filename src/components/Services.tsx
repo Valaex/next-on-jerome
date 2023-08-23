@@ -75,9 +75,9 @@ function Services({}: Props) {
               </div>
             </div>
           </Reveal>
-          <div className="max-w-7xl h-[1px] bg-[#040320] opacity-50 mb-20"></div>
+          {/* <div className="max-w-7xl h-[1px] bg-[#040320] opacity-50 mb-20"></div> */}
         </div>
-        <Offre />
+        {/* <Offre /> */}
       </section>
     </Reveal>
   );
