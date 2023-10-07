@@ -24,7 +24,7 @@ function Experience({}: Props) {
   }
   const techDataL = [
     { icon: imgValid, title: "React" },
-    { icon: imgValid, title: "TYPESCRIPT" },
+    { icon: imgValid, title: "JAVASCRIPT" },
     { icon: imgValid, title: "NEXT JS" },
     { icon: imgValid, title: "HTML" },
     { icon: imgValid, title: "TAILWIND" },
@@ -34,9 +34,9 @@ function Experience({}: Props) {
   const techDataR = [
     { icon: imgValid, title: "FIGMA" },
     { icon: imgValid, title: "GIT" },
-    { icon: imgValid, title: "PHOTOSHOP" },
+    { icon: imgValid, title: "FRAMER" },
     { icon: imgValid, title: "GITHUB" },
-    { icon: imgValid, title: "SKETCH" },
+    { icon: imgValid, title: "WEBFLOW" },
     { icon: imgValid, title: "GPT-4" },
   ];
 
